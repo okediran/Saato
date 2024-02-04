@@ -9,7 +9,7 @@ import {
   Container,
 } from "@chakra-ui/react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo from "../asses/images/Logo.png";
+import Logo from "../assets/images/logo.png";
 import { FaAngleDown } from "react-icons/fa";
 
 const Navbar: React.FC = () => {
