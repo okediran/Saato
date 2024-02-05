@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
 
   return (
     <Box>
-      <Image src={Vector} alt="Dots Image" position='absolute'/>
+      <Image src={Vector} alt="Dots Image" position='absolute' display={{ base: "none", md: "block" }}/>
       <Container maxW="1200px">
         <Flex p={4} align="center">
           {/* navbar brand */}
