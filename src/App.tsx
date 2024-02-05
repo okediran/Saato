@@ -1,15 +1,16 @@
 import React from 'react';
-import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from "./components/navbar";
 import HeroSection from './components/hero_section';
+import Project from './components/projects';
+
 
 const App: React.FC = () => {
   return (
     <ChakraProvider>
       <Navbar />
       <HeroSection />
-      {/* Other components */}
+      <Project/>
     </ChakraProvider>
   );
 };

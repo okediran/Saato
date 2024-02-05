@@ -5,7 +5,7 @@ import { Image, ImageProps } from "@chakra-ui/react";
 interface ImageCardProps extends ImageProps {
   src?: string;
   alt?: string;
-  maxW?:string
+  maxW?:any
 }
 
 const ImageCard: React.FC<ImageCardProps> = ({

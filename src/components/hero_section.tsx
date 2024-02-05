@@ -14,6 +14,7 @@ import RectangleImage from "../assets/images/rectangle.png";
 import kitImage from "../assets/images/kit.png";
 import image1 from "../assets/images/image1.png";
 import dotsImage from "../assets/images/dots.png";
+import dotsImage2 from "../assets/images/dots2.png";
 import image2 from "../assets/images/image2.png";
 import image3 from "../assets/images/image3.png";
 import vectorImage from "../assets/images/vector.png";
@@ -113,6 +114,7 @@ const HeroSection: React.FC = () => {
           </Box>
         </Flex>
       </Container>
+      <Image  src={dotsImage2} alt="Dots Image"/>
     </Box>
   );
 };
